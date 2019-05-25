@@ -1,0 +1,27 @@
+{
+  "name": "book_web",
+  "version": "1.0.0",
+  "description": "simple web book with express and angular ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juandiemore/BookWeb.git"
+  },
+  "author": "Juan Diego M,Luis Felipe B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juandiemore/BookWeb/issues"
+  },
+  "homepage": "https://github.com/juandiemore/BookWeb#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "mongojs": "^2.6.0",
+    "nodemon": "^1.19.1",
+    "npm": "^6.9.0"
+  }
+}
