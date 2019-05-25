@@ -41,7 +41,7 @@ routes.delete('/delete/:id', (req,res,next)=>{
   });
 
 
-router.put('/actualizar/:id', (req,res,next)=>{
+routes.put('/actualizar/:id', (req,res,next)=>{
   const book = req.body;
   const updateBook = {};
   if(book.isDone) {
